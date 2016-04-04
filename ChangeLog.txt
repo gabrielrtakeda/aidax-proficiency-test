@@ -1,0 +1,16 @@
+Changelog
+=========
+
+v1.2 (2015-01-16)
+--------------------
+
+* [Feature] Examples: Flot realtime charting examples added
+* [Fix] Examples: Performance improvements (unbind events and intervals on dashboard close)
+* [Feature] Core: Now $scope.$on('onDashboardClose') event is triggered when dashboard is closing (rotating)
+
+
+v1.1 (2014-12-10)
+--------------------
+
+* [Feature] Auto-rotate dashboards menu
+* [Feature] Dashboards menu / Multiple dashboards per config file feature

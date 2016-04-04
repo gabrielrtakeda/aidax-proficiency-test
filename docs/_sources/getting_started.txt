@@ -1,0 +1,27 @@
+Getting Started
+===============
+
+Skills required
+---------------
+
+To configure FinalBoard you will need basic HTML and JavaScript/JSON skills.
+
+The more advanced widgets you want to create, the more advanced JavaScript skills can be required.
+
+FinalBoard dashboards are built on `Bootstrap3 <http://getbootstrap.com>`_ and `AngularJS <http://getbootstrap.com>`_. Therefore for more advanced widgets it is good to have some Bootstrap3 and AngularJS templating syntax experience.
+
+
+Requirements
+------------
+
+FinalBoard dashboards are 100% client side, which means you can use any modern internet browser to display FinalBoard dashboards.
+
+The only requirement is web-server to server static JS/CSS/HTML files.
+
+
+First run
+---------
+
+Unzip archive and copy whole package to directory which is served by any web-server and open destination URL in you browser.
+
+Voilà! The example dashboard should running. And you should see something like this: http://finalboard.com/demo/

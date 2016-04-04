@@ -1,0 +1,35 @@
+<div class="row no-gutters">
+    <div class="col-xs-6 col-lg-3">
+        <div class="panel-heading">CPU %</div>
+        <div class="panel-body">
+            <span class="h1 text-{{ data.cpu > 80 ? 'danger' : 'white' }}">{{ data.cpu | number:1 }}<span class="h3 text-primary">%</span></span>
+        </div>
+    </div>
+    <div class="col-xs-6 col-lg-4">
+        <div class="panel-heading">Memory %</div>
+        <div class="panel-body">
+            <span class="h1 text-{{ data.memory.virtual.perc > 80 ? 'danger' : 'white' }}">{{ data.memory.virtual.perc | number:1 }}<span class="h3 text-primary">%</span></span>
+        </div>
+    </div>
+    <div class="col-xs-12 col-lg-5 ">
+        <div class="panel-heading">Memory</div>
+        <div class="panel-body">
+            <span class="h6 text-muted">
+                Virtual: {{ data.memory.virtual.active }} / {{ data.memory.virtual.total }}<br/>
+                Swap: {{ data.memory.swap.used }} / {{ data.memory.swap.total }}<br/>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="panel-body">
+    <div class="progress"><div class="progress-bar progress-bar-{{ data.cpu | color }}" style="width: {{ data.cpu }}%">{{data.cpu}}%</div><span class="progress-label">CPU&nbsp;</span></div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-{{ data.memory.virtual.perc | color }}" style="width: {{ data.memory.virtual.perc }}%">{{data.memory.virtual.perc}}%</div>
+        <span class="progress-label">Memory&nbsp;</span>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-{{ data.disk.perc | color }}" style="width: {{ data.disk.perc }}%">{{data.disk.perc}}%</div>
+        <span class="progress-label">Disk&nbsp;</span>
+    </div>
+</div>

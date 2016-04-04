@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "count": 63041,
+      "percents": 45,
+      "name": "get images",
+      "eta": "14hr 50m 34s"
+    },
+    {
+      "count": 95041,
+      "percents": 22,
+      "name": "parse files",
+      "eta": "1d 14hr 50m 34s"
+    }
+  ]
+}

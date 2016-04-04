@@ -1,0 +1,23 @@
+.. FinalBoard documentation master file, created by
+   sphinx-quickstart on Tue Nov 25 09:58:02 2014.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+FinalBoard documentation!
+=========================
+
+**FinalBoard - Your own private dashboard**.
+
+* Project home: http://finalboard.com/
+* Live demo: http://finalboard.com/demo/
+
+Contents:
+
+.. toctree::
+  :maxdepth: 3
+
+  getting_started
+  configuration
+  templates
+  js_helpers
+  changelog

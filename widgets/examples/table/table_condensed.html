@@ -1,0 +1,37 @@
+<table class="table table-condensed">
+    <thead>
+    <tr>
+        <th>Count</th>
+        <th>Name</th>
+        <th class="text-right">ETA</th>
+    </tr>
+    </thead>
+
+    <tr data-ng-repeat="row in data.rows">
+        <td>
+            <span class="h5 text-white">{{ row.count | number }}</span>
+            <span class="h6 text-{{ row.percents > 30 ? 'success' : 'danger' }}">{{ row.percents }}%</span>
+        </td>
+        <td>{{ row.name }}</td>
+        <td class="text-right"><span class="h6 text-muted">{{ row.eta }}</span></td>
+    </tr>
+</table>
+
+
+<!--<table class="table table-condensed">-->
+    <!--<thead>-->
+    <!--<tr>-->
+        <!--<th>Count</th>-->
+        <!--<th>Name</th>-->
+        <!--<th class="text-right">ETL</th>-->
+    <!--</tr>-->
+    <!--</thead>-->
+    <!--<tr>-->
+        <!--<td>-->
+            <!--<span class="h5 text-white">{{ 5042 | number }}</span>-->
+            <!--<span class="h6 text-success">94%</span>-->
+        <!--</td>-->
+        <!--<td>get images</td>-->
+        <!--<td class="text-right"><span class="h6 text-muted">50m 34s</span></td>-->
+    <!--</tr>-->
+<!--</table>-->

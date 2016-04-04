@@ -1,0 +1,8 @@
+Changelog
+=========
+
+v1.3
+----
+
+* Now you can specify ``widgets/default.js`` location by adding ``<script>FinalBoard = { path: '/path-to-finalboard/' };</script>`` to your ``index.html`` right before ``app.js`` is included.
+* AngularJS upgraded to v1.4.7
