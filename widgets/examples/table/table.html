@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+    <tr>
+        <th>Count</th>
+        <th>Name</th>
+        <th class="text-right">ETA</th>
+    </tr>
+    </thead>
+
+    <tr data-ng-repeat="row in data.rows">
+        <td>
+            <span class="h1 text-white">{{ row.count | number }}</span>
+            <span class="h3 text-{{ row.percents > 30 ? 'success' : 'danger' }}">{{ row.percents }}%</span>
+        </td>
+        <td><h4>{{ row.name }}</h4></td>
+        <td class="text-right"><h5 class="text-muted">{{ row.eta }}</h5></td>
+    </tr>
+</table>

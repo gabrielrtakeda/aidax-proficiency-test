@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "count": 5042,
+      "percents": 94,
+      "name": "get images",
+      "eta": "50m 34s"
+    },
+    {
+      "count": 15042,
+      "percents": 80,
+      "name": "parse files",
+      "eta": "14hr 50m 34s"
+    },
+    {
+      "count": 25042,
+      "percents": 22,
+      "name": "another task",
+      "eta": "1d 14hr 50m 34s"
+    },
+    {
+      "count": 35042,
+      "percents": 7,
+      "name": "and another",
+      "eta": "2d 14hr 50m 34s"
+    }
+  ]
+}

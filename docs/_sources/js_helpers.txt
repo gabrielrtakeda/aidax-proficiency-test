@@ -1,0 +1,34 @@
+JavaScript helpers
+==================
+
+Sometimes with HTML markup and JSON data is not enough and we want to implement some more advanced logic, so here comes JavaScript helpers defined as ``js`` parameter in widget config.
+
+JavaScript helpers can also provide data for templates same way as ``data_url`` responses.
+
+
+
+Examples
+--------
+
+In the demo app you can see some examples of JS helpers:
+
+
+* `Simple example <http://finalboard.com/demo/widgets/examples/server_monitor/data.js>`_ - Just random data generator.
+
+    Location: ``widgets/examples/server_monitor/data.js``
+
+
+* `Intermediate example <http://finalboard.com/demo/widgets/examples/countdown/data.js>`_ - Countdown timer.
+
+    Location: ``widgets/examples/countdown/data.js``
+
+
+* `Intermediate example <http://finalboard.com/demo/widgets/examples/flot_charts/data.js>`_ - Flot realtime charts.
+
+    Location: ``widgets/examples/countdown/data.js`` and  ``widgets/examples/countdown/data2.js``
+
+
+* `Advanced example <http://finalboard.com/demo/widgets/examples/google_charts/data.js>`_ - Chart generation using Google Charts API.
+
+    Location: ``widgets/examples/google_charts/data.js``
+

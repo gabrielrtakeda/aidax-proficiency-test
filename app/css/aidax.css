@@ -1,0 +1,101 @@
+body {
+    background-color: #4a494a;
+    padding-top: 0;
+}
+
+.panel {
+    background-color: #323232;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.header .title,
+.header .small {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 25px 0;
+    line-height: 40px;
+}
+
+.header .small {
+    font-size: 1.2em;
+    text-align: right;
+    color: #808080;
+}
+
+.container-fluid {
+    padding: 0px 40px;
+}
+
+.panel-heading {
+    padding: 30px 30px 15px;
+    background-color: transparent !important;
+}
+
+.panel-heading .panel-title {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.panel-body {
+    padding: 15px 30px 80px;
+}
+
+.big-value {
+    font-size: 8em;
+    font-weight: bold;
+    color: #fff;
+    line-height: 8.5rem;
+}
+
+
+/* Total Clients */
+.total-clients .panel-heading {
+    padding-bottom: 0;
+    background-color: transparent !important;
+}
+
+.total-clients .panel-heading .panel-title {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.total-clients .panel-body {
+    padding-top: 15px;
+    padding-bottom: 55px;
+}
+
+/* Customer Aquisition Goal */
+.customer-aquisition-goal .panel-title .col {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+.customer-aquisition-goal .panel-title .goal {
+    text-align: right;
+    color: #fff;
+}
+
+.customer-aquisition-goal .panel-body .progress {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    height: 72px;
+    background-color: #272727;
+}
+
+.customer-aquisition-goal .panel-body .progress .progress-bar {
+    line-height: 72px;
+    font-size: 1.1em;
+}
+
+.customer-aquisition-goal .panel-body .progress .progress-bar-success {
+    background-color: #7ed221;
+}
