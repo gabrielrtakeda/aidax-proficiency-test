@@ -8,15 +8,11 @@ FinalBoard.Config = {
         {
           js: 'widgets/aidax/google-charts/data.js',
           template: 'widgets/aidax/google-charts/bar-chart.html',
-          css_class: "col-xs-12 col-md-8"
+          css_class: "bar-chart col-xs-12 col-md-8"
         },
         {
           template: 'widgets/aidax/components/total-clients.html',
-          css_class: "total-clients col-xs-12 col-md-4"
-        },
-        {
-          template: 'widgets/aidax/components/customer-aquisition-goal.html',
-          css_class: "customer-aquisition-goal col-xs-12 col-md-4"
+          css_class: "two-rows col-xs-12 col-md-4"
         },
       ], [
         {

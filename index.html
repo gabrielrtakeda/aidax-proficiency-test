@@ -44,7 +44,7 @@
     <div class="row" data-ng-repeat="row in rows">
         <div class="{{ getColClass(widget) }} col-eq" data-ng-repeat="widget in row" repeat-done="onRowDone()" data-ng-controller="WidgetController">
             <div class="text-danger error" data-ng-if="error">{{error}}</div>
-            <div class="panel panel-default" data-ng-include="getWidget(widget)"></div>
+            <div class="container-margin" data-ng-include="getWidget(widget)"></div>
         </div>
     </div>
 
