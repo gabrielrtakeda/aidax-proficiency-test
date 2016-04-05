@@ -3,10 +3,6 @@ body {
     padding-top: 0;
 }
 
-.panel {
-    background-color: #323232;
-}
-
 .header {
     background-color: #000;
     color: #fff;
@@ -31,6 +27,17 @@ body {
     padding: 0px 40px;
 }
 
+.container-margin {
+    margin-bottom: 20px;
+}
+
+/* Panel Global Settings */
+.panel {
+    background-color: #323232;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
 .panel-heading {
     padding: 30px 30px 15px;
     background-color: transparent !important;
@@ -44,6 +51,13 @@ body {
 
 .panel-body {
     padding: 15px 30px 80px;
+    font-size: 75%;
+}
+
+@media (min-width: 768px) {
+  .panel-body {
+    font-size: 100%;
+  }
 }
 
 .big-value {
@@ -53,6 +67,10 @@ body {
     line-height: 8.5rem;
 }
 
+/* Bar Chart */
+.bar-chart .panel {
+    padding-bottom: 0;
+}
 
 /* Total Clients */
 .total-clients .panel-heading {
@@ -67,8 +85,8 @@ body {
 }
 
 .total-clients .panel-body {
-    padding-top: 15px;
-    padding-bottom: 55px;
+    padding-top: 20px;
+    padding-bottom: 58px;
 }
 
 /* Customer Aquisition Goal */
